@@ -10,7 +10,7 @@ export default{
 <template>
     <header class='container'>
         <RouterLink to="/" class='logo'>
-            <img src='https://archives.bulbagarden.net/media/upload/8/80/Pokenetlogo.png' alt='Logo Pokenet'/>
+            <img src='../assets/Pokenetlogo.png' alt='Logo Pokenet'/>
         </RouterLink>
 
         <form onsubmit={onSearchSubmit}>
